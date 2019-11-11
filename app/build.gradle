@@ -30,7 +30,7 @@ android {
             minifyEnabled true
             zipAlignEnabled true
             shrinkResources true  // 移除无用的resource文件
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFile 'proguard-gson.txt'
 
 
         }
@@ -38,7 +38,7 @@ android {
             minifyEnabled true
             zipAlignEnabled true
             shrinkResources true  // 移除无用的resource文件
-            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            proguardFile 'proguard-gson.txt'
 
         }
 
